@@ -1,0 +1,92 @@
+<!--
+<mat-card>
+  <form (submit)="verifica(exerciseForm)" #exerciseForm="ngForm">
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="name"
+        ngModel
+        required
+        pattern="[A-Z][a-z]+"
+        #name="ngModel"
+        placeholder="Name"
+        >
+      <mat-error *ngIf="name.invalid" >The initial letter must be capitalized!</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="surname"
+        ngModel
+        required
+        pattern="[A-Z][a-z]+"
+        #surname="ngModel"
+        placeholder="Surname"
+        >
+      <mat-error *ngIf="surname.invalid" >The initial letter must be capitalized!</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="phonenumber"
+        ngModel
+        required
+        pattern="[0-9]{10}"
+        #phonenumber="ngModel"
+        placeholder="Phone Number"
+        >
+      <mat-error *ngIf="phonenumber.invalid" >Please enter a valid phone number.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="email"
+        ngModel
+        required
+        pattern="([a-zA-Z])([a-zA-Z0-9]|[.-_])*[@][a-z]+[.][a-z]+"
+        #email="ngModel"
+        placeholder="Email"
+        >
+      <mat-error *ngIf="email.invalid">{{getErrorMessageMail()}}</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="password"
+        name="password"
+        ngModel
+        required
+        pattern="[A-Z][A-Za-z]{7,}[\d]+[\W]{2}"
+        #password="ngModel"
+        placeholder="Password"
+        >
+      <mat-error *ngIf="password.invalid">Please enter a valid password.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="password"
+        name="confirm"
+        ngModel
+        required
+        #confirm="ngModel"
+        placeholder="Confirm"
+        >
+    </mat-form-field>
+    <div id="errPass" *ngIf="!isEqualPassword">Please enter the same password.</div>
+
+    <button mat-raised-button color="primary" type="submit">Check</button>
+  </form>
+</mat-card>
+
+
+<input [(ngModel)] = "username">
+
+{{username}}
+
+
+-->

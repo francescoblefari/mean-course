@@ -1,0 +1,6 @@
+{
+  "env":{
+    "MONDO_ATLAS_PW":"KR3HjGJz6i21uoZV",
+    "JWT_KEY":"secret_this_should_be_longer"
+  }
+}
